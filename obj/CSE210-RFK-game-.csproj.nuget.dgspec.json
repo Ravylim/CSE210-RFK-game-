@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/RFK Game/CSE210-RFK-game-/CSE210-RFK-game-.csproj": {}
+    "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/CSE210-RFK-game-/CSE210-RFK-game-.csproj": {}
   },
   "projects": {
-    "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/RFK Game/CSE210-RFK-game-/CSE210-RFK-game-.csproj": {
+    "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/CSE210-RFK-game-/CSE210-RFK-game-.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/RFK Game/CSE210-RFK-game-/CSE210-RFK-game-.csproj",
+        "projectUniqueName": "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/CSE210-RFK-game-/CSE210-RFK-game-.csproj",
         "projectName": "CSE210-RFK-game-",
-        "projectPath": "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/RFK Game/CSE210-RFK-game-/CSE210-RFK-game-.csproj",
+        "projectPath": "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/CSE210-RFK-game-/CSE210-RFK-game-.csproj",
         "packagesPath": "/Users/ravy/.nuget/packages/",
-        "outputPath": "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/RFK Game/CSE210-RFK-game-/obj/",
+        "outputPath": "/Users/ravy/Downloads/MY ACADELMIC /Spring 2022/CSE 210 - Programming With Classes/CSE210-RFK-game-/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ravy/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[4.0.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
